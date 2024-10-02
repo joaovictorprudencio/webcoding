@@ -6,13 +6,15 @@ body {
 .menu {
   display: flex;
   justify-content: flex-end;
+  margin-right: 20px;
 }
 
 header {
     background-color: bisque;
     height: 70px;
     display: flex;
-    gap: 400px;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .logo {
