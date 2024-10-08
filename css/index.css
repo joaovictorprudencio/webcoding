@@ -1,20 +1,31 @@
 body {
     padding: 0;
     margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(to right, #252525,rgb(29, 29, 29) );
+    
 }
 
 .menu {
   display: flex;
   justify-content: flex-end;
   margin-right: 20px;
+  color:rgb(151, 86, 0);
 }
 
 header {
-    background-color: bisque;
     height: 70px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+a {
+    
+    color:rgb(151, 86, 0);
+    text-decoration: none;
+    
 }
 
 .logo {
@@ -27,4 +38,29 @@ ul {
  list-style: none;
  display: flex;
  gap: 20px;
+}
+
+footer {
+    background-color: rgb(65, 65, 65);
+}
+
+.content {
+    margin-left: 13px;
+ color:rgb(151, 86, 0);
+ height: 500px;
+}
+
+.imgss {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dog {
+    width: 600px;
+    height: 600x;
+}
+
+p {
+    font-size: 23px;
+    margin-top: 200px;
 }
